@@ -170,7 +170,7 @@ VisualEffectResource:
       SetAttribute_D5151642( /*inout */attributes.scaleX,  /*inout */attributes.scaleY, 
       /*inout */attributes.scaleZ, float3(0.300000012, 1, 0.00999999978));\n       
       }\n        {\n            SetAttribute_F0142CB9( /*inout */attributes.lifetime,
-      (float)5.80000019);\n        }\n        \n\r\n\t\t\r\n#if VFX_USE_ALIVE_CURRENT\r\n       
+      (float)5.5999999);\n        }\n        \n\r\n\t\t\r\n#if VFX_USE_ALIVE_CURRENT\r\n       
       if (attributes.alive)\r\n#endif       \r\n        {\r\n#if USE_DEAD_LIST\r\n\t       
       uint deadIndex = deadListIn.DecrementCounter();\r\n            uint index =
       deadListIn[deadIndex];\r\n#else\r\n            uint index = particleIndex;\r\n#endif\r\n           
@@ -1274,7 +1274,7 @@ VisualEffectResource:
         - m_ExpressionIndex: 19
           m_Value: 0
         - m_ExpressionIndex: 24
-          m_Value: 5.8
+          m_Value: 5.6
       m_Vector2f:
         m_Array:
         - m_ExpressionIndex: 22
@@ -6334,7 +6334,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5.8
+      m_SerializableObject: 5.6
     m_Space: 2147483647
   m_Property:
     name: Lifetime
