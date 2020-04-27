@@ -631,7 +631,7 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 0
+      - m_Value: 4
         m_Name: Scale
         m_Overridden: 1
     m_Vector2f:
@@ -894,7 +894,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1037,7 +1037,7 @@ VisualEffect:
       - m_Value: 0
         m_Name: Spawn Rate
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 0
         m_Name: Depth
         m_Overridden: 1
     m_Vector2f:
